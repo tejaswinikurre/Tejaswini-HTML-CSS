@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<style type="text/css">
+		#login_form{
+			width: 50%;
+  			height: 70%;
+  			display: grid;
+  			align-items: center;
+  			background-color: white;
+  			border-radius: 7px;
+  			box-shadow: 0px 0px 5px 2px black;
+  			padding: 1%;
+  			margin-left:20%;
+  			margin-right: 20%
+		}
+		.login-form-field{
+			width:100%;
+			height:30px;
+			}
+
+			#login-form-submit{
+			width:100%;
+			height:30px;
+			border-radius: 8px;
+			cursor: pointer;
+		}
+		 hr{
+        height: 1px;
+        background-color:red;
+        border: none;
+    }
+    button{
+    	border-radius: 8px;
+    	cursor: pointer;
+
+    }
+
+    pre { 
+                font-family: Arial; 
+                color: #009900; 
+                margin: 25px; 
+            }
+		
+		body{
+			background: #3a3a3a;
+		}
+
+	</style>
+</head>
+<body >
+	<div class="card">
+	
+	<div id="login_form">
+		<h2 style="background:#3E5796;text-align:center;color: white;height:40px;padding-top:1%;">Sign in</h2>
+		<form>
+			 <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required><br><br>
+      		<input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required><br><br><br>
+      		<input type="submit" value="SIGN IN" id="login-form-submit" style="background:#0C8EE0;color:white;border:none;">
+      		<pre><a href="#">Forgot your password?</a>                                                                           <a href="#">Register!</a></pre>
+
+		</form>
+		<br>
+		<table><tr>
+				<td style="width:47%"><hr></td>
+				<td style="vertical-align:middle; text-align: center">OR</td>
+				<td style="width:47%"><hr/></td>
+				</tr>
+		</table>
+		<br>
+		<button class='button1' style="background:#2F4CB3;color:white;border:none;height:30px">f</button>
+		<br>
+		<button class='button2' style="background:#F5463A;color:white;border:none;height:30px">G+</button>
+		<br><br>
+		<button class='button3' style="background:#E0C60C;color:white;border:none;height:30px">EPAM LOGIN</button>
+	</div>
+</div>
+
+</body>
+</html>
+
